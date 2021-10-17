@@ -1,0 +1,73 @@
+h1 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 120px;
+}
+
+p {
+    position: absolute;
+}
+
+.p1 {
+    margin-top: 210px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.p2 {
+    margin-top: 400px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.imgem {
+    position: absolute;
+    margin-top: 450px;
+}
+
+.centrado {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.messimg {
+    margin-left: -128px;
+    margin-top: -70px;
+}
+
+.botonback {
+    position: absolute;
+    background-color: #75AADB;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #00759c;
+    color: white;
+}
+
+.bpost {
+    margin-top: 600px;
+    margin-left: 1070px;
+}
+
+.footer2 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #75AADB;
+    color: white;
+    text-align: center;
+}

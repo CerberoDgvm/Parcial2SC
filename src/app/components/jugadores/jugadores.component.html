@@ -1,0 +1,28 @@
+<div class="container__card ">
+    <div class="card__father" *ngFor="let jugadoress of jugadores">
+        <div class="card">
+            <div class="card__front">
+                <img class="card-img" [src]="jugadoress.img" alt="Card image">
+                <div class="bg"></div>
+                <div class="body__card_front">
+                    <h1>{{jugadoress.nombre}}</h1>
+                </div>
+            </div>
+            <div class="card__back">
+                <div class="body__card_back">
+                    <h2>EQUIPOS</h2>
+                    <p></p>
+                    <img class="card-img" [src]="jugadoress.img2" alt="Card image">
+                    <p></p>
+                    <input type="button" [routerLink]="jugadoress.link" value="Leer Más">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<footer>
+    <div class=" text-center py-3 text-white-70 footerp">
+        <small>Copyright &copy; Victor Dorado</small>
+    </div>
+</footer>
